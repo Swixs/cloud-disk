@@ -1,0 +1,20 @@
+.input {
+  border: none;
+  border-bottom: 2px solid rgb(49, 49, 117);
+  cursor: pointer;
+  width: 400px;
+  height: 25px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(49, 49, 117);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.input:focus {
+  border-color: transparent;
+  border-bottom: 2px solid;
+}

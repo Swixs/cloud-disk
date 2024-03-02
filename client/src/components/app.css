@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: -7px;
+}
+
+body {
+  background-color: #e9e6e6;
+}
+
+#root {
+  width: 100%;
+}
