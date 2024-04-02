@@ -1,0 +1,31 @@
+.file {
+    border-bottom: 2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    margin: 10px 0px;
+}
+
+.file:hover{
+    transform: scale(1.02);
+}
+
+.file__img{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.file__name {
+    margin-top: 20px;
+}
+
+.file__data {
+    margin-top: 20px;
+    grid-column-start: 5;
+    justify-content: center;
+}
+
+.file__size {
+    margin-top: 20px;
+    grid-column-start: 6;
+    justify-content: center;
+}

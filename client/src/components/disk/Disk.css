@@ -1,0 +1,39 @@
+.disk {
+    position: absolute;
+    overflow: hidden;
+    height: 94.5%;
+    top: 51px;
+    margin-left: 200px;
+    width: 80%;
+    background-color: rgb(180, 182, 185);
+}
+
+.text {
+    color: blue;
+}
+
+.disk__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.buttons__back {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 45px;
+    top: 20px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.buttons__create{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 140px;
+    top: 20px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
